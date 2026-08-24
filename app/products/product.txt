@@ -6,3 +6,11 @@
 dynamic routes 
 
 product -> [id]
+
+// **********************************************************************
+//  Normal routing: /about → fixed route
+// Dynamic routing: /product/[id] → variable route
+
+// A common use case is product pages, where you don't want to create 1,000 separate pages for 1,000 products.
+
+// **********************************************************************
