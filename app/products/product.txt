@@ -1,0 +1,8 @@
+/product/101
+/product/102
+/product/103
+/product/104
+
+dynamic routes 
+
+product -> [id]
