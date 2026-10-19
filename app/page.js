@@ -125,46 +125,68 @@
 
 
 
-// server action;
+// // server action;
 
-// import server action
+// // import server action
 
-import { registerStudent } from "./action"
+// import { registerStudent } from "./action"
 
-export default function Home(){
+// export default function Home(){
+//     return(
+//         <main>
+//             <h1>Student Registration</h1>
+//             <form action = {registerStudent}>
+//                 <input name = "name"
+//                 placeholder="Enter your name here...">
+//                 </input> <br></br>
+
+//                 <input name = "email"
+//                 placeholder="Enter your email here...">
+//                 </input> <br></br>
+
+//                 <input name = "course"
+//                 placeholder="Enter your course  here...">
+//                 </input> <br></br>
+                
+//                 <input type="file"
+//                     name="photo"
+//                 ></input>
+
+//                 <br />
+
+//                 <button type = 'submit'>Register</button>
+
+//                 {/* form data  */}
+
+
+//             </form>
+//         </main>
+//     )
+// }
+
+
+
+
+
+
+
+
+
+
+export default function TaskPage(){
     return(
         <main>
-            <h1>Student Registration</h1>
-            <form action = {registerStudent}>
-                <input name = "name"
-                placeholder="Enter your name here...">
-                </input> <br></br>
+            <h1>Task Manager</h1>
+            <form>
+                <input 
+                type = "text" 
+                name = "title" 
+                placeholder="enter your task title here...  " 
+                required>
+                </input>
 
-                <input name = "email"
-                placeholder="Enter your email here...">
-                </input> <br></br>
-
-                <input name = "course"
-                placeholder="Enter your course  here...">
-                </input> <br></br>
-                
-                <input type="file"
-                    name="photo"
-                ></input>
-
-                <br />
-
-                <button type = 'submit'>Register</button>
-
-                {/* form data  */}
-
-
+                <button type = "submit">Add Task</button>
             </form>
         </main>
     )
 }
-
-
-
-
-
